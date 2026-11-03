@@ -12,16 +12,12 @@ h2 {
     font-size: 24px;
 }
 
-/* Task 3: Padding and Margin */
-
 .content-box {
     padding: 20px;
     margin: 10px;
     background-color: white;
     border: 1px solid #ccc;
 }
-
-/* Task 4: Table */
 
 table {
     width: 100%;
@@ -37,8 +33,6 @@ th, td {
 th {
     background-color: #e0e0e0;
 }
-
-/* Task 4: Form */
 
 form {
     display: flex;
