@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minun ensimmäinen html-sivu</title>
+
+    <!-- External CSS link -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Internal CSS -->
+    <style>
+        h1 {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Inline CSS -->
+    <h1 style="color: darkblue;">Tervetuloa minun sivustolle! </h1>
+
+    <p> Tämä on minun ensimmäinen kerta yhdistäessä HTML ja CSS. </p>
+
+    <div class="content-box">
+        <h3>Hieman minusta:</h3>
+        <p>Olen Atte Hyvärinen, ja olen 20-vuotias Vantaalta. Opiskelen Laureassa IT-tradenomiksi. </p>
+
+    </div>
+
+
+<img src="./IMG_9253.jpg" alt="Portrait of Atte Hyvärinen, a Laurea IT student from Vantaa." width="200">
+
+
+
+<h2>Harrastukseni</h2>
+
+<ul>
+    <li>Salibandy</li>
+    <li>Golf</li>
+    <li>Laskettelu</li>
+</ul>
+
+<h2>Minun lempi nettisivusto</h2>
+<a href="https://www.youtube.com">Youtube</a>
+
+<h2>Arvosanoja edeltävien kurssien tehtävistä:</h2>
+<table>
+    <tr>
+        <th>Tehtävä</th>
+        <th>Arvosana</th>
+    </tr>
+    <tr>
+        <td>Yritysvierailun ryhmäesitys</td>
+        <td>17/20</td>
+    </tr>
+    <tr>
+        <td>Verkkosivun saavutettavuusarviointi</td>
+        <td>28/30</td>
+    </tr>
+</table>
+
+<h2>Ota yhteyttä minuun:</h2>
+<form>
+    <label for="name">Nimi:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Sähköposti:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <input type="submit" value="Lähetä">
+</form>
+
+</body>
+</html>
