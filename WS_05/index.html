@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minun ensimmäinen html-sivu</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="responsive-nav">
+            <button class="menu-toggle">☰ Menu</button>
+            <ul class="nav-list">
+                <li><a href="#etusivu">Etusivu</a></li>
+                <li><a href="#tietoja">Tietoja</a></li>
+                <li><a href="#yhteystiedot">Yhteystiedot</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <style>
+        h1 {
+            color: green;
+        }
+    </style>
+
+<section id="Etusivu">
+        <h1 style="color: darkblue;">Etusivu</h1>
+        <p>Tämä sivusto on tehty Websivuston Kehittäminen -kurssin aikana. Sivulla tehdään lukuisia tehtäviä, jotka liittyvät kurssin sisältöön. </p>
+        </section>
+
+    <h1 style="color: darkblue;">Tietoja </h1>
+
+    <p> Tälle sivulle kirjoitan tietoja minusta. </p>
+
+    <div class="content-box">
+        <h3>Perustiedot:</h3>
+        <p>Olen Atte Hyvärinen, ja olen 20-vuotias Vantaalta. Opiskelen Laureassa IT-tradenomiksi. Pelaan salibandya Suomen korkeimmalla sarjatasolla Westend Indiansissa! </p>
+
+    </div>
+
+
+<img src="./IMG_9253.jpg" alt="Portrait of Atte Hyvärinen, a Laurea IT student from Vantaa." width="200" class="filter-image">
+
+
+
+<h2>Harrastukseni</h2>
+
+<ul class="pseudo-list">
+    <li>Salibandy</li>
+    <li>Golf</li>
+    <li>Laskettelu</li>
+    <li>Karting</li>
+</ul>
+
+<h2>Minun lempi nettisivusto</h2>
+<a href="https://www.youtube.com">Youtube</a>
+
+<h2>Arvosanoja edeltävien kurssien tehtävistä:</h2>
+<table>
+    <tr>
+        <th>Tehtävä</th>
+        <th>Arvosana</th>
+    </tr>
+    <tr>
+        <td>Yritysvierailun ryhmäesitys</td>
+        <td>17/20</td>
+    </tr>
+    <tr>
+        <td>Verkkosivun saavutettavuusarviointi</td>
+        <td>28/30</td>
+    </tr>
+</table>
+
+<main>
+    <section id="Workshop tehtävät">
+        <h2>Workshop tehtävät</h2>
+        <p>Täältä löydät workshopeissa tehtyjä painikkeita! </p>
+        </section>
+
+        <section>
+            <div class="grid-container">
+                <div class="grid-item">1</div>
+                <div class="grid-item">2</div>
+                <div class="grid-item">3</div>
+                <div class="grid-item">4</div>
+                <div class="grid-item">5</div>
+                <div class="grid-item">6</div>
+            </div>
+        </section>
+
+        <section>
+            <div class="flex-container">
+                <div class="box">Box 1</div>
+                <div class="box">Box 2</div>
+                <div class="box">Box 3</div>
+            </div>
+        </section>
+
+        <section>
+            <div class="responsive-box">
+                Resize the window to see the effect!
+            </div>
+        </section>
+
+<section>
+    <h2>Responsive layout</h2>
+    <div class="responsive-container">
+        <div class="column">Column 1</div>
+        <div class="column">Column 2</div>
+        </div>
+</section>
+
+<section>
+    <h2>Responsive image</h2>
+
+    <img src="./IMG_9253.jpg" alt="Responsive image" class="filter-image responsive-image" width="200">
+</section>
+
+<section>
+    <h2>Media Queries</h2>
+
+    <div class="media-query-box">
+        <p>Resize the window to see the effect!</p>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <p>Copyright 2026, Atte Hyvärinen.</p>
+</footer>
+
+<h2>CSS Transitions</h2>
+<button class="transition-button">Hover over me!</button>
+
+<h2>CSS Animations</h2>
+<div class="animation-box"></div>
+
+<h2>CSS Pseudo-elements</h2>
+<blockquote class="quote">
+    <p>"Se ei pelaa joka pelkää!"</p>
+</blockquote>
+
+<h2>Ota yhteyttä minuun:</h2>
+<form>
+    <label for="name">Nimi:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Sähköposti:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <input type="submit" value="Lähetä">
+</form>
+
+</body>
+</html>
